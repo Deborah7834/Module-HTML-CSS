@@ -1,16 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Responsive Cake webpage</title>
+    <link rel="stylesheet" href="style.css" />
     <!-- Add a link to your css file here -->
-</head>
+  </head>
 
-<body>
-    <!-- Add your markup here -->
-</body>
+  <body>
+    <header>
+      <div class="bar" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="logo">
+        <img
+          src="https://media.istockphoto.com/id/467245498/photo/strawberry-cupcakes.webp?a=1&b=1&s=612x612&w=0&k=20&c=HRAoTdC6J4FDoMIZulpQ2SrEhL1F-8Oeo5xNaHep4EU="
+          alt="Cupcake logo"
+        />
+      </div>
+      <nav class="nav-menu">
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <img
+            src="https://media.istockphoto.com/id/1402705959/photo/striped-buttercream-birthday-cake-with-colorful-birthday-candles-and-sprinkles.webp?a=1&b=1&s=612x612&w=0&k=20&c=hE2okcr7kt0w2lDzpDnmJDyJzwkC8Q8ntUVaM-p17YE="
+            alt="Menu icon"
+          />
+        </button>
+      </nav>
+    </header>
 
+    <!-- Welcome section -->
+    <section class="welcome-section">
+      <div class="content">
+        <h1>Welcome</h1>
+        <p>The best cakes in town delivered to your door</p>
+        <p>
+          At FROSTING GLORY, we bake cakes using the finest ingredients and
+          deliver them fresh to your home.
+        </p>
+      </div>
+    </section>
+
+    <!-- Top Image Section (Hero Image) -->
+    <section class="hero-image-section">
+      <img
+        src="https://media.istockphoto.com/id/1201202312/es/foto/pastel-de-cumplea%C3%B1os-con-bandera-de-cumplea%C3%B1os-feliz.jpg?s=1024x1024&w=is&k=20&c=E6LLzcOSwfisyBJ1QG0Yn1lDWbVlSyiKWuKwTuLK0_k="
+        alt="Main cake image"
+      />
+    </section>
+
+    <!-- Cake Grid Section -->
+    <section class="cake-grid-section">
+      <div class="cake-box">
+        <img
+          src="https://images.unsplash.com/photo-1542007920-992d2c424d09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D"
+          alt="Cake 1"
+        />
+      </div>
+      <div class="cake-box">
+        <img
+          src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D"
+          alt="Cake 2"
+        />
+      </div>
+      <div class="cake-box">
+        <img
+          src="https://media.istockphoto.com/id/1909746921/es/foto/pastel-de-cumplea%C3%B1os-de-celebraci%C3%B3n-con-coloridas-velas-de-cumplea%C3%B1os-y-bengalas.jpg?s=612x612&w=0&k=20&c=PO5M_nFtVhcLOBNMRKNCpWhhkEz7oZA4uvQWiXXla_0="
+          alt="Cake 3"
+        />
+      </div>
+      <div class="cake-box">
+        <img
+          src="https://media.istockphoto.com/id/1445400702/es/foto/lindo-pastel-bento-con-sabrosa-crema-y-confeti-sobre-fondo-azul-claro-plano.jpg?s=612x612&w=0&k=20&c=vlwI9F45LZkLAIqNYaoqpujVw-_V9V_tw1vYUrj5GL8="
+          alt="Cake 4"
+        />
+      </div>
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="spain">spain</option>
+            <option value="canada">Canada</option>
+            <option value="nigeria">nigeria</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="What is your order."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
