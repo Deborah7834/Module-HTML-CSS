@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["firstname", "lastname"]
+  "cSpell.words": ["firstname", "lastname"],
+  "liveServer.settings.port": 5503
 }
