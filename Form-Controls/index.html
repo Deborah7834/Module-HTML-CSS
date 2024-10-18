@@ -1,28 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My form exercise</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Product Pick</h1>
-  </header>
-  <main>
-  <form>
-    <!-- write your html here-->
-    <!-- try writing out the requirements first-->
-  </form>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My form exercise</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <h1>Product Pick</h1>
+        <h2>By HOMEWORK SOLUTION</h2>
+      </header>
+      <main>
+        <form class="form">
+          <div class="input-box">
+            <label>First Name</label>
+            <input type="text" placeholder="Enter Name" />
+          </div>
+          <div class="input-box">
+            <label>Surname</label>
+            <input type="text" placeholder="Enter surname" />
+          </div>
 
-  </main>
-  <footer>
-    <!-- change to your name-->
-    <h2>By HOMEWORK SOLUTION</h2>
-  </footer>
-</body>
+          <div class="column">
+            <label>Email Address</label>
+            <input type="text" placeholder="Enter Email Address" required />
+          </div>
 
+          <div class="column">
+            <label>Phone Number</label>
+            <input type="text" placeholder="Enter Phone number " required />
+          </div>
+
+          <div class="gender">
+            <h3>Gender</h3>
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="male" name="gender" />
+                <label for="check">Male</label>
+              </div>
+
+              <div class="gender">
+                <input type="radio" id="Female" name="gender" />
+                <label for="check">Female</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="size">
+            <h3>T-Shirt Size</h3>
+            <div class="size">
+              <div class="size">
+                <input type="radio" id="check" name="size" />
+                <label for="check">Xs</label>
+                <input type="radio" id="check" name="size" />
+                <label for="check">S</label>
+                <input type="radio" id="check" name="size" />
+                <label for="check">M</label>
+                <input type="radio" id="check" name="size" />
+                <label for="check">L</label>
+                <input type="radio" id="check" name="size" />
+                <label for="check">XL</label>
+              </div>
+            </div>
+            <h4>Choose color</h4>
+
+            <div class="color">
+              <input type="radio" name="color" />
+              <label for="check">red</label>
+              <input type="radio" name="color" />
+              <label for="check">green</label>
+              <input type="radio" name="color" />
+              <label for="check">blue</label>
+            </div>
+          </div>
+          <div class="address">
+            <h4>Address</h4>
+            <div class="select-box">
+              <label>country</label>
+              <select id="country">
+                <option>ESWATINI</option>
+                <option>Spain</option>
+                <option>South Africa</option>
+                <option>Zimbabwe</option>
+                <option>China</option>
+              </select>
+            </div>
+            <label>Home Address</label>
+            <input type="text" placeholder="Enter street Address" required />
+            <input
+              type="text"
+              placeholder="Enter street Address line 2"
+              required
+            />
+            <input type="text" placeholder="Enter city" required />
+            <input type="text" placeholder="Enter apartment Number" required />
+            <input type="text" placeholder="Enter House Address" required />
+          </div>
+          <button>SUBMIT</button>
+        </form>
+      </main>
+      <br />
+      <footer>DEBORAH GAMEDZE</footer>
+    </section>
+  </body>
 </html>
