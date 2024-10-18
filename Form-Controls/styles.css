@@ -1,0 +1,77 @@
+* {
+  margin: 8px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(https://fridaystuff.com/wp-content/uploads/2021/08/Girl-power-The-Powerpuff-Girls-cartoon-dope-black-girls.jpg);
+  backdrop-filter: blur(8px);
+}
+
+.container {
+  background: white;
+  position: relative;
+  width: 100%;
+  max-width: 50%;
+  padding: 25px;
+  border-radius: 8px;
+}
+.container .form {
+  margin-top: 30px;
+  background-image: linear-gradient(pink, rgb(219, 219, 255));
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 1.5 rem;
+  text-align: center;
+  background-color: #ff009d;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 -1px 0 #a10084 inset;
+}
+input-box {
+  width: 100%;
+  margin-top: 200px;
+}
+.input-box {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  font-size: 1rem;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+.column {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+button {
+  background: #9400a2;
+  color: white;
+  align-content: center;
+  border-style: outset;
+  border-color: #e4e9ec;
+  height: 50px;
+  width: 100px;
+  font: bold15px arial, sans-serif;
+  text-shadow: none;
+  margin-left: 40%;
+}
